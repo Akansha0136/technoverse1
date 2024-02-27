@@ -1,0 +1,97 @@
+.background-wrapper{
+    background-image: url('D:/basic-question-round/images/TV Banner_page-0001.jpg'); /* Specify the path to your image */
+    height: 100%;
+    background-color: #f0f0f0; /* Fallback background color */
+    background-size: cover;
+    background-position: center;
+    
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#que1{
+    margin-top: 200px;
+    margin-left: 125px;
+}
+
+#que4{
+    margin-left: 125px;
+}
+
+#que7{
+    margin-left: 125px;
+}
+
+#que10{
+    margin-left: 125px;
+}
+
+#que13{
+    margin-left: 125px;
+}
+
+.btn{
+    display: inline-block; /* Display divs in the same line */
+    width: 30%; /* Adjust width as needed */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+button{
+    border-radius: 50%;
+    width: 170px;
+    height: 50px;
+    margin: 10px;
+    font-weight: bolder;
+    background-color:aquamarine;
+}
+
+.ques{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Grid with minimum width of 200px */
+    grid-gap: 10px; /* Gap between grid items */
+    max-width: 800px; /* Limit maximum width */
+    padding: 20px;
+}
+
+.ansbtn{
+    background-color: green;
+    color: white;
+    margin-left: 400px;
+}
+
+.question{
+    padding-top: 50px;
+    padding-left: 400px;
+    font-weight: bolder;
+}
+
+#ans{
+    color: green;
+}
+
+h1{
+    font-size:xx-large;
+}
+
+p{
+    font-size: larger;
+}
+
+.home{
+    margin-top: 150px;
+    margin-left: 200px;
+    width: auto;
+    height: auto;
+    background-color: blue;
+    color: white;
+}
+
+.img{
+    width: 20px;
+    height: 20px;
+}
